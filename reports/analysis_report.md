@@ -51,7 +51,7 @@ không loại bỏ các từ mang sắc thái cảm xúc (như "not", "never", "
 |37061|	negative|	positive|	Cảm xúc mạnh, mô hình nhầm lẫn|	Review khen ngợi, nhiều cảm xúc tích cực nhưng gán nhãn negative|
 |8347|	negative|	positive|	Cảm xúc trộn lẫn|	Review trung tính, có cả khen và chê, mô hình khó xác định cảm xúc chính|
 |17596|	positive|	negative|	Phủ định/so sánh|	Có nhiều phủ định, so sánh, mô hình dễ nhầm lẫn ý nghĩa thực sự|
-|34543|	negative|	positive|	Mỉa mai/châm biếm	Review có yếu tố mỉa mai, mô hình không nhận diện được sắc thái|
+|34543|	negative|	positive|	Mỉa mai/châm biếm|	Review có yếu tố mỉa mai, mô hình không nhận diện được sắc thái|
 |4648|	negative|	positive|	Review dài, nhiều chi tiết không liên quan|	Nhiều nhận xét phụ, mô hình không tập trung vào ý chính|
 |8659|	negative|	positive|	Mỉa mai/châm biếm|Review khen quá mức, có thể là mỉa mai, mô hình hiểu nhầm là tích cực thật
 |36707|	negative|	positive|	Cảm xúc trộn lẫn|	Review có nhiều nhận xét tích cực về kỹ thuật nhưng nhãn là negative
