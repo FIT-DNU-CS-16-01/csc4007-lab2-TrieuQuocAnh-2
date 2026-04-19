@@ -28,10 +28,11 @@ không thay thế số bằng `<NUM>`, vì trong dữ liệu IMDB, số lượng
 không loại bỏ các từ mang sắc thái cảm xúc (như "not", "never", "very") và không loại bỏ stopwords, vì các từ này rất quan trọng để mô hình nhận diện cảm xúc, đặc biệt là các phủ định hoặc nhấn mạnh.
 
 ## 3. Experiment comparison
-| Run | Text version | Vectorizer | Model | ngram | Macro-F1 | Accuracy | Ghi chú |
-| 1 | cleaned |TF-IDF  |Linear SVM  | 1–2 | 0.9100 | 0.9100 |  Best|
-| 2 | cleaned |TF-IDF  | Logistic Regression |1–2  |0.9064  | 0.9064 | Stable |
-| 3 | cleaned | BoW | Logistic Regression | 1–2  |0.8956 |0.8956 | Worst |
+| Run | Text version | Vectorizer | Model                 | ngram | Macro-F1 | Accuracy | Ghi chú |
+|-----|-------------|------------|-----------------------|-------|----------|----------|--------|
+| 1   | cleaned     | TF-IDF     | Linear SVM            | 1–2   | 0.9100   | 0.9100   | Best   |
+| 2   | cleaned     | TF-IDF     | Logistic Regression   | 1–2   | 0.9064   | 0.9064   | Stable |
+| 3   | cleaned     | BoW        | Logistic Regression   | 1–2   | 0.8956   | 0.8956   | Worst  |
 
 ## 4. Error analysis (>= 10 lỗi)
 - Chọn ít nhất 10 mẫu trong `outputs/error_analysis/error_analysis.csv`.
