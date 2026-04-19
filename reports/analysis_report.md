@@ -29,6 +29,7 @@ không loại bỏ các từ mang sắc thái cảm xúc (như "not", "never", "
 
 ## 3. Experiment comparison
 | Run | Text version | Vectorizer | Model | ngram | Macro-F1 | Accuracy | Ghi chú |
+|---|---|---|---|---|
 | 1 | cleaned |TF-IDF  |Linear SVM  | 1–2 | 0.9100 | 0.9100 |  Best|
 | 2 | cleaned |TF-IDF  | Logistic Regression |1–2  |0.9064  | 0.9064 | Stable |
 | 3 | cleaned | BoW | Logistic Regression | 1–2  |0.8956 |0.8956 | Worst |
